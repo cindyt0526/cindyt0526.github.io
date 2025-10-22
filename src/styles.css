@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+body{
+    background-color:#B0E0E6;
+}
+li, a, button, .name{
+    color:#8565c4;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 5%;
+    font-size: 31px;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: #0088a9;
+}
+#header h1 h2 h3 p{
+    color: black;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#about{
+    font-size: 33px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#content{
+    margin-top: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+.image1{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills{
+    font-size: 30px;
+}
+.edu{
+    font-size: 30px;
+    text-align: center;
+}
+.image2{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 300px;
+}
+.image3{
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}

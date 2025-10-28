@@ -133,12 +133,13 @@ export default function Portfolio() {
                 About Me
               </h2>
               <p className={`text-xl leading-relaxed mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-                Hello! My name is Cindy Tang and I am currently studying for my Bachelors of Science in Computer Science
-                and a certificate in Management and Information Systems at Temple University.
+                Hello! I am Cindy Tang, a Associate Software Engineer at Lockheed Martin with a background in Computer Science and 
+                Management Information Systems from Temple University.
               </p>
               <p className={`text-xl leading-relaxed mb-8 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-                I am very excited to learn more about computer science and to collaborate with others in order to further 
-                my knowledge in this profession. Currently I enjoy coding and learning Java and C.
+                Currently I work within backend development, improving and maintaining its functionality. As I continue to grow early in my career, 
+                I am exploring opportunities that allow me to blend technical problem-solving with creativity. I have developed a strong interest in front-end development 
+                and UX/UI design, and I am actively building my portfolio and expanding my skills in these areas.
               </p>
               <div className="flex gap-4">
                 <a href="#contact" className="px-8 py-4 bg-gradient-to-r from-pink-500 to-pink-400 text-white rounded-lg hover:shadow-lg transition text-lg font-semibold">
@@ -160,7 +161,7 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-pink-200 rounded-2xl blur-2xl opacity-30"></div>
                 <img 
-                  src="/images/Photo3.JPEG" 
+                  src="/public/images/Photo3.JPEG" 
                   alt="Cindy Tang" 
                   className="relative w-96 h-96 object-cover rounded-2xl shadow-2xl"
                 />
@@ -191,7 +192,7 @@ export default function Portfolio() {
           }`}>
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <img 
-                src="/images/templeuniversity.jpg_fit=scale&background=000000" 
+                src="/public/images/templeuniversity.jpg_fit=scale&background=000000" 
                 alt="Temple University" 
                 className="w-24 h-24 object-cover rounded-xl shadow-lg"
               />
@@ -229,7 +230,7 @@ export default function Portfolio() {
             Skills
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {['Java', 'C', 'HTML', 'CSS', 'Python', 'Git', 'JavaScript'].map((skill, index) => (
+            {['Java', 'Kubernetes', 'Docker', 'HTML', 'CSS', 'Python', 'Git', 'JavaScript', 'Figma', 'CI/CD'].map((skill, index) => (
               <div 
                 key={skill} 
                 className={`p-6 rounded-2xl text-center hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 ${

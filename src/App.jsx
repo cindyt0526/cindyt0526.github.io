@@ -161,7 +161,7 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-pink-200 rounded-2xl blur-2xl opacity-30"></div>
                 <img 
-                  src="/public/images/Photo3.JPEG" 
+                  src="/images/Photo3.JPEG" 
                   alt="Cindy Tang" 
                   className="relative w-96 h-96 object-cover rounded-2xl shadow-2xl"
                 />
@@ -192,7 +192,7 @@ export default function Portfolio() {
           }`}>
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <img 
-                src="/public/images/templeuniversity.jpg_fit=scale&background=000000" 
+                src="/images/templeuniversity.jpg_fit=scale&background=000000" 
                 alt="Temple University" 
                 className="w-24 h-24 object-cover rounded-xl shadow-lg"
               />
